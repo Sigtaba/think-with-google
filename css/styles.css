@@ -1,5 +1,6 @@
-body {
+.top-section {
   background-color: #EEEEEE;
+  padding: 0px 15px;
 }
 
 .side-nav {
@@ -82,6 +83,9 @@ h1 .red1 {
   color: #6E6E6E;
 }
 
+.row {
+  margin-bottom: 0;
+}
 
 /*does not work and not sure why. used inline styling as workaround*/
 /*.card-content {
@@ -112,4 +116,30 @@ h1 .red1 {
   font-size: 20px;
   vertical-align: middle;
   color: #6E6E6E;
+}
+
+.middle-section {
+  padding: 60px 30px;
+  color: #6E6E6E;
+}
+
+.middle-section h4 {
+  font-weight:300;
+}
+
+.middle-section li {
+  font-size: 18px;
+  padding: 10px 0;
+  font-weight: 400;
+}
+
+.middle-section ul h5 {
+  padding-top: 20px;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+  #insights li {
+    width: 50%;
+  }
 }
