@@ -3,6 +3,37 @@
   padding: 0px 15px;
 }
 
+.dropdown-button {
+  background-color: inherit;
+  border: none;
+  font-size: 10px;
+  padding: 0;
+  margin:0;
+}
+
+.dropdown-button:hover {
+  background-color: inherit;
+}
+
+.dropdown-button2 {
+  background-color: inherit;
+  border: none;
+  font-size: 10px;
+  padding: 0;
+  margin:0;
+}
+
+.dropdown-button2:hover {
+  background-color: inherit;
+}
+
+#topnav li a {
+  font-size: 18px;
+  color: #444444;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+
 .side-nav {
   width: 350px;
 }
@@ -59,7 +90,7 @@
 }
 
 .top-title {
-  color: #6E6E6E;
+  color: #444444;
 }
 .top-title h3 {
   font-weight: 300;
