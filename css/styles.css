@@ -1,0 +1,76 @@
+body {
+  background-color: #EEEEEE;
+}
+
+#logo {
+  padding-top: 10px;
+}
+
+.brand-logo {
+  margin-left: 50px;
+}
+
+#search {
+  padding-right: 20px;
+}
+
+.nav-wrapper .material-icons {
+  font-size: 35px;
+  color: #6E6E6E;
+}
+
+.nav-wrapper {
+  background-color: #EEEEEE;
+  border: 0;
+  text-shadow: 0;
+}
+
+.nav-wrapper a {
+  color: #8E8E8E;
+}
+
+h1 .red1 {
+  color: #EB4335;
+}
+
+.yellow1 {
+  color: #FBBC05;
+}
+
+.blue1 {
+  color: #4285F4;
+}
+
+.green1 {
+  color: #34A853;
+}
+
+.lightgrey1 {
+  color: #949494;
+}
+
+.darkgrey1 {
+  color: #6E6E6E;
+}
+
+.top4 img {
+  float: left;
+  width: 40%;
+}
+
+.top4 p {
+  font-size: 20px;
+  color: #424242;
+}
+
+.top4 p:last-child {
+  font-size: 16px;
+  color: #8E8E8E;
+  padding-top: 15px;
+}
+
+.top4 .material-icons {
+  font-size: 20px;
+  vertical-align: middle;
+  color: #6E6E6E;
+}
