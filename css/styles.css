@@ -30,8 +30,6 @@
   margin: .5rem 1.5rem;
 }
 
-
-
 #logo {
   padding-top: 10px;
 }
@@ -121,6 +119,7 @@ h1 .red1 {
 .middle-section {
   padding: 60px 30px;
   color: #6E6E6E;
+  background-color: #FAFAFA;
 }
 
 .middle-section h4 {
@@ -136,6 +135,15 @@ h1 .red1 {
 .middle-section ul h5 {
   padding-top: 20px;
   font-weight: 300;
+}
+
+.card {
+  height: 100%;
+}
+
+.tools img {
+  width: 100%;
+  padding-top: 10px;
 }
 
 @media screen and (min-width: 600px) and (max-width: 992px) {
