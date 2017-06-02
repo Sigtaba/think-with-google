@@ -57,28 +57,14 @@
   color: #8E8E8E;
 }
 
-h1 .red1 {
-  color: #EB4335;
-}
-
-.yellow1 {
-  color: #FBBC05;
-}
-
-.blue1 {
-  color: #4285F4;
-}
-
-.green1 {
-  color: #34A853;
-}
-
-.lightgrey1 {
-  color: #949494;
-}
-
-.darkgrey1 {
+.top-title {
   color: #6E6E6E;
+}
+.top-title h3 {
+  font-weight: 300;
+  padding-left: 20px;
+  margin-top: 80px;
+  margin-bottom: 50px;
 }
 
 .row {
@@ -146,8 +132,84 @@ h1 .red1 {
   padding-top: 10px;
 }
 
+.toolbtn {
+  background-color: #3367D6;
+  display: block;
+  width: 180px;
+  height: 50px;
+  padding-top: 8px;
+  margin: 30px auto;
+  font-size: 15px;
+}
+
+.toolbtn:hover {
+  background-color: #4285F4;
+}
+
+.footer {
+  background-color: #3367D6;
+  color: white;
+}
+
+.footer h3 {
+  font-weight: 200;
+  font-size: 35px;
+}
+
+#email, #company {
+  font-size: 22px;
+  font-weight: 200;
+}
+
+.subscribebtn {
+  background-color: #FFFFFF;
+  color: #3367D6;
+  display: block;
+  width: 140px;
+  height: 50px;
+  padding-top: 8px;
+  margin: 30px auto;
+  font-size: 15px;
+}
+
+.subscribebtn:hover {
+  background-color: #FFFFFF;
+  color: #4285F4;
+}
+
+
+.bottom-links li {
+  display: inline;
+  padding-right: 20px;
+  font-size: 17px;
+  font-weight: 200;
+}
+
+.bottom-icons img {
+  width: 26px;
+}
+
+.bottom-icons li {
+  display: inline;
+  padding-right: 20px;
+}
+
+.divide:before {
+  background: #e0e0e0;
+  content: '';
+  display: block;
+  height: .0625rem;
+  margin: .5rem 1.5rem;
+}
+
 @media screen and (min-width: 600px) and (max-width: 992px) {
   #insights li {
     width: 50%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .top-title {
+    display: none;
   }
 }
