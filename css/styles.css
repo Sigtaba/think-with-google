@@ -2,6 +2,33 @@ body {
   background-color: #EEEEEE;
 }
 
+.side-nav {
+  width: 350px;
+}
+
+.side-nav li a {
+  font-size: 20px;
+  font-family: 'Roboto', thin;
+  font-weight: normal;
+  color: #6E6E6E;
+}
+
+#side-logo {
+  padding: 40px 20px 0px;
+}
+
+.side-nav li {
+  padding: 8px 0px;
+}
+
+.border-bottom:after {
+  background: #e0e0e0;
+  content: '';
+  display: block;
+  height: .0625rem;
+  margin: .5rem 1.5rem;
+}
+
 #logo {
   padding-top: 10px;
 }
