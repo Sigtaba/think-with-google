@@ -29,6 +29,8 @@ body {
   margin: .5rem 1.5rem;
 }
 
+
+
 #logo {
   padding-top: 10px;
 }
@@ -80,9 +82,19 @@ h1 .red1 {
   color: #6E6E6E;
 }
 
+
+/*does not work and not sure why. used inline styling as workaround*/
+/*.card-content {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0:
+  padding-right: 0;
+}*/
+
 .top4 img {
   float: left;
-  width: 40%;
+  width: 100%;
+  margin: 0px;
 }
 
 .top4 p {
